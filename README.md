@@ -6,9 +6,7 @@
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
 Open http://localhost:8501 in Chrome or Edge (required for microphone).
-
 ## 🎙️ Microphone — How It Works
 
 The Reading Test uses the Web Speech API built into Chrome/Edge.
