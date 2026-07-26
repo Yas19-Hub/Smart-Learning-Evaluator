@@ -17,7 +17,6 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed",
 )
-
 from model import predict
 from utils import (
     T, RECOMMENDATIONS,
@@ -25,7 +24,6 @@ from utils import (
     compute_error_rate, compute_task_completion,
 )
 from games import run_attention_test, run_reading_test, run_memory_test, run_image_test
-
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  CSS
