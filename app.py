@@ -2,13 +2,11 @@
 app.py — Revon: AI Learning Disability Detection System
 ========================================================
 Pages:  Landing → Form → Attention → Reading → Memory → Results
-
 • ALL UI text uses the T[] translation dictionary (English / Hindi).
 • ALL feature values come from actual tests — no hardcoded defaults, no sliders.
 • ML prediction uses sklearn LogisticRegression trained on synthetic data.
 • Reading test uses Web Speech API mic → browser transcript → difflib accuracy.
 """
-
 import time
 import streamlit as st
 
