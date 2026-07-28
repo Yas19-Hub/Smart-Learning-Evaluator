@@ -9,7 +9,6 @@ Pages:  Landing → Form → Attention → Reading → Memory → Results
 """
 import time
 import streamlit as st
-
 # ── Page config (must be very first Streamlit call) ────────────────────────────
 st.set_page_config(
     page_title="Revon | Learning Disability Detection",
@@ -24,7 +23,6 @@ from utils import (
     compute_error_rate, compute_task_completion,
 )
 from games import run_attention_test, run_reading_test, run_memory_test, run_image_test
-
 # ══════════════════════════════════════════════════════════════════════════════
 #  CSS
 # ══════════════════════════════════════════════════════════════════════════════
