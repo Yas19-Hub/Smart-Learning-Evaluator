@@ -59,7 +59,6 @@ header,#MainMenu,footer,.stDeployButton { display:none!important; }
 }
 .stTextInput>div>div>input:focus,
 .stTextArea textarea:focus { border-color:#5b6aff!important; box-shadow:0 0 0 3px rgba(91,106,255,.1)!important; }
-
 /* Progress dots */
 .prog-wrap { display:flex; gap:8px; justify-content:center; margin-bottom:1.2rem; align-items:center; }
 .prog-dot  { width:36px; height:8px; border-radius:4px; background:#e0e7ff; transition:all .3s; }
